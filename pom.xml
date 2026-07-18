@@ -89,6 +89,12 @@
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
+        <!-- ========== RAG 知识库（SimpleRagExample / RagChatExample / RagWithToolExample） ========== -->
+        <dependency>
+            <groupId>io.agentscope</groupId>
+            <artifactId>agentscope-extensions-rag-simple</artifactId>
+        </dependency>
+
         <!-- ========== Lombok ========== -->
         <dependency>
             <groupId>org.projectlombok</groupId>
